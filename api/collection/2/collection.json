@@ -1,0 +1,32 @@
+
+  [
+    {
+    "title": "live: Greg Inglis to announce nrl retirement...",
+    "imageurl": "images/dummy2.jpg",
+    "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged..",
+    "published": 30,
+    "commentcount": 3
+    },
+    {
+    "title": "Opal Town units still closed as work only...",
+    "imageurl": "images/dummy1.jpg",
+    "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "published": 20,
+    "commentcount": 0
+    },
+    {
+      "title": "live: Greg Inglis to announce nrl retirement...",
+      "imageurl": "images/dummy1.jpg",
+      "intro": "Greg Inglis has arrived at South Sydney headquarters...",
+      "published": 30,
+      "commentcount": 3
+      },
+      {
+      "title": "Opal Town units still closed as work only...",
+      "imageurl": "images/dummy1.jpg",
+      "intro": "Exclusive people are still unable to move...",
+      "published": 20,
+      "commentcount": 0
+      }
+    
+    ]
