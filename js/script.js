@@ -32,6 +32,7 @@ function fetchcollectionTypes(){
           </svg>${data[0].commentcount}</span></p>
             `;
             leftsideContent.appendChild(articleElement);
+            document.getElementById('articleLgImage').src = data[0].imageurl;
 
 
             const rightsideContent = document.getElementById('rightArticleContent');
@@ -45,6 +46,8 @@ function fetchcollectionTypes(){
           </svg>${data[1].commentcount}</span></p>
             `;
             rightsideContent.appendChild(articleRElement);
+            document.getElementById('articleImage').src = data[1].imageurl;
+
 
             const smallArt1Content = document.getElementById('smallArt1Content');
             smallArt1Content.innerHTML = '';
@@ -54,6 +57,8 @@ function fetchcollectionTypes(){
             <p>&#x1F550;${data[2].published}m </p>
             `;
             smallArt1Content.appendChild(articleS1Element);
+            document.getElementById('s1articleImage').src = data[2].imageurl;
+
 
             const smallArt2Content = document.getElementById('smallArt2Content');
             smallArt2Content.innerHTML = '';
@@ -63,6 +68,7 @@ function fetchcollectionTypes(){
             <p>&#x1F550;${data[3].published}m </p>
             `;
             smallArt2Content.appendChild(articleS2Element);
+            document.getElementById('s2articleImage').src = data[3].imageurl;
         })
     })
 }
