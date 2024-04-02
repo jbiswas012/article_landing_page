@@ -19,8 +19,7 @@ function fetchcollectionTypes(){
             return response.json();
         })
         .then(data => {
-            console.log(data)
-            // displayArticles(data);
+            // console.log(data)
             const leftsideContent = document.getElementById('leftArticleContent');
             leftsideContent.innerHTML = '';
             const articleElement = document.createElement('div');
@@ -73,29 +72,6 @@ function fetchcollectionTypes(){
     })
 }
 
-function displayArticles(articles) {
-    // Assuming there's a container with id "articles-container" to display articles
-    // const articlesContainer = document.getElementById('articles-container');
-    const leftsideContent = document.getElementById('leftsideContent');
-  
-    // Clear previous content
-    // articlesContainer.innerHTML = '';
-    leftsideContent.innerHTML = '';
-  
-    // Loop through articles and create HTML elements to display them
-    articles.map(article => {
-        console.log(article)
-        // console.log(article[0])
-    //   const articleElement = document.createElement('div');
-    //   articleElement.innerHTML = `
-    //     <h2>${article.title}</h2>
-    //     <p><strong>Author:</strong> ${article.author}</p>
-    //     <p>${article.content}</p>
-    //     <p><strong>Published Date:</strong> ${article.published_date}</p>
-    //   `;
-    //   // Append article element to container
-    //   articlesContainer.appendChild(articleElement);
-    });
-  }
+
 
 fetchcollectionTypes();
