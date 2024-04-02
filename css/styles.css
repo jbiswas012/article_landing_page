@@ -76,3 +76,14 @@ body, html{
         margin-top: 20px;
     }
 }
+@media only screen and (max-width: 600px) {
+    .content{
+        flex-direction: column;
+    }
+    .leftside-content{
+        margin-bottom: 15px;
+    }
+    .article-imageContainer.lg img{
+        min-height: auto;
+    }
+}
