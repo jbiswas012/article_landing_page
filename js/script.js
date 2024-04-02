@@ -28,16 +28,17 @@ function fetchcollectionTypes(){
             leftsideContent.innerHTML = '';
             const articleElement = document.createElement('div');
             articleElement.innerHTML = `
-            <h2>${data[0].title}</h2>
+            <h2>&#10012;${data[0].title}</h2>
             <p> ${data[0].intro}</p>
             `;
             leftsideContent.appendChild(articleElement);
+
 
             const rightsideContent = document.getElementById('rightArticleContent');
             rightsideContent.innerHTML = '';
             const articleRElement = document.createElement('div');
             articleRElement.innerHTML = `
-            <h2>${data[1].title}</h2>
+            <h2>&#10012;${data[1].title}</h2>
             <p> ${data[1].intro}</p>
             `;
             rightsideContent.appendChild(articleRElement);
@@ -46,7 +47,7 @@ function fetchcollectionTypes(){
             smallArt1Content.innerHTML = '';
             const articleS1Element = document.createElement('div');
             articleS1Element.innerHTML = `
-            <h4>${data[2].title}</h4>
+            <h4>&#10012;${data[2].title}</h4>
             `;
             smallArt1Content.appendChild(articleS1Element);
 
@@ -54,7 +55,7 @@ function fetchcollectionTypes(){
             smallArt2Content.innerHTML = '';
             const articleS2Element = document.createElement('div');
             articleS2Element.innerHTML = `
-            <h4>${data[3].title}</h4>
+            <h4>&#10012;${data[3].title}</h4>
             `;
             smallArt2Content.appendChild(articleS2Element);
         })
