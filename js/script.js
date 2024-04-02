@@ -30,6 +30,9 @@ function fetchcollectionTypes(){
             articleElement.innerHTML = `
             <h2>&#10012;${data[0].title}</h2>
             <p> ${data[0].intro}</p>
+            <p>&#x1F550;2m <span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-chat-right" viewBox="0 0 16 16">
+            <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+          </svg>1</span></p>
             `;
             leftsideContent.appendChild(articleElement);
 
@@ -40,6 +43,9 @@ function fetchcollectionTypes(){
             articleRElement.innerHTML = `
             <h2>&#10012;${data[1].title}</h2>
             <p> ${data[1].intro}</p>
+            <p>&#x1F550;1hr <span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-chat-right" viewBox="0 0 16 16">
+            <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+          </svg>1</span></p>
             `;
             rightsideContent.appendChild(articleRElement);
 
@@ -48,6 +54,7 @@ function fetchcollectionTypes(){
             const articleS1Element = document.createElement('div');
             articleS1Element.innerHTML = `
             <h4>&#10012;${data[2].title}</h4>
+            <p>&#x1F550;1hr </p>
             `;
             smallArt1Content.appendChild(articleS1Element);
 
@@ -56,6 +63,7 @@ function fetchcollectionTypes(){
             const articleS2Element = document.createElement('div');
             articleS2Element.innerHTML = `
             <h4>&#10012;${data[3].title}</h4>
+            <p>&#x1F550;3hr </p>
             `;
             smallArt2Content.appendChild(articleS2Element);
         })
