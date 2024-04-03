@@ -64,6 +64,19 @@ body, html{
     color: #fff;
     padding: 20px;
 }
+.article-contentContainer span{
+    margin-left: 5px;
+}
+.shortArticle-head h4{
+    margin-top: 0;
+}
+.article-contentContainer h2{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.article-contentContainer p{
+    margin-top: 10px;
+}
 
 /* For responsiveness */
 @media only screen and (max-width: 1199px){
@@ -88,9 +101,7 @@ body, html{
     .article-thumbnail{
         align-items: baseline;
     }
-    .shortArticle-head h4{
-        margin-top: 0;
-    }
+    
 }
 @media only screen and (max-width: 768px) {
     .container{
