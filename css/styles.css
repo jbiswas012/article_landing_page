@@ -66,6 +66,32 @@ body, html{
 }
 
 /* For responsiveness */
+@media only screen and (max-width: 1199px){
+    .article-imageContainer.lg img{
+        object-fit: cover;
+    }
+    .article-thumbnail img{
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .right-section {
+        flex: 0 0 120px;
+    }
+    .article-imageContainer.lg img{
+        min-height: 350px;
+        object-fit: cover;
+    }
+    .article-thumbnail img{
+        object-fit: contain;
+    }
+    .article-thumbnail{
+        align-items: baseline;
+    }
+    .shortArticle-head h4{
+        margin-top: 0;
+    }
+}
 @media only screen and (max-width: 768px) {
     .container{
         flex-direction: column;
@@ -75,6 +101,7 @@ body, html{
         width: 100%;
         margin-top: 20px;
     }
+    
 }
 @media only screen and (max-width: 600px) {
     .content{
